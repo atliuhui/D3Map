@@ -1,0 +1,45 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#map {
+}
+
+#popover {
+    position: absolute;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    color: #fff;
+    font-family: '微软雅黑 Bold', '微软雅黑', sans-serif;
+    opacity: 0.9;
+}
+
+.popover.top > .arrow:after {
+    border-top-color: #46b8da;
+}
+
+.popover-title {
+    background-color: transparent;
+    text-align: center;
+}
+
+.popover-content {
+    text-align: left;
+    font-size: 20px;
+    min-width: 230px;
+}
+
+.popover-content i {
+    float: right;
+    margin-top: 10px;
+    font-size: 70px;
+    color: #ddd;
+}
+
+.popover-content small {
+    font-size: small;
+}

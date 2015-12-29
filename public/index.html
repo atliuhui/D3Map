@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" xml:lang="zh" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <title>D3 MAP</title>
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/javascripts/normalize-css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/javascripts/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/javascripts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/app.css" />
+    <script type="text/javascript" src="/javascripts/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/javascripts/d3/d3.min.js"></script>
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="text-align: center;">
+                <div id="map">
+                    <div id="popover" class="popover top">
+                        <div class="arrow"></div>
+                        <h3 id="popover-title" class="popover-title"></h3>
+                        <div class="popover-content">
+                            <i class="fa fa-bar-chart"></i>
+                            <div id="popover-content-oil"><small>&emsp;原油产量</small><span></span><small>%</small></div>
+                            <div id="popover-content-gas"><small>天然气产量</small><span></span><small>%</small></div>
+                            <div id="popover-content-rate"><small>投资完成率</small><span></span><small>%</small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

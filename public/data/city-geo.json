@@ -1,0 +1,5 @@
+﻿{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"id":"01","name":"北京"},"geometry":{"type":"Point","coordinates":[116.41483,39.92108]}},
+{"type":"Feature","properties":{"id":"02","name":"天津"},"geometry":{"type":"Point","coordinates":[117.196715,39.119577]}},
+{"type":"Feature","properties":{"id":"03","name":"吉林"},"geometry":{"type":"Point","coordinates":[125.309923,43.834354]}}
+]}
